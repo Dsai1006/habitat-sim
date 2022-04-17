@@ -50,8 +50,8 @@ set -e
 python setup.py develop --all
 pip install . #Reinstall to trigger sys.path update
 
-pip uninstall pillow
-pip install pillow==9.1.0
+conda uninstall pillow
+conda install pillow==9.1.0
 
 cd /content/habitat-sim/
 
